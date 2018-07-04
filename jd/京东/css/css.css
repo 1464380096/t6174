@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#loge img{
+    position: absolute;
+    left: 340px;
+}
+#hello{
+    position: absolute;
+    left: 530px;
+    top: 30px;
+}
+#wenti img{
+    position: absolute;
+    left: 1100px;
+    top: 60px;
+}
+#smallzi{
+    position: absolute;
+    left: 1120px;
+    top: 58px;
+    font-size: 12px;
+}
+#fa{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background-color: #fff8f0;
+    top: 80px;
+}
+#wenzi{
+    font-size: 13px;
+    position: absolute;
+    left: 400px;
+    top: 5px;
+}
+#tanhao{
+    position: absolute;
+    left: 380px;
+    top: 6px;
+}
+#background img{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+#background{
+    height: 480px;
+    width: 100%;
+    background-color: #BED8BD;
+    position: absolute;
+    top: 120px;
+}
+#zhu{
+    height: 400px;
+    width: 330px;
+    background-color: white;
+    position: absolute;
+    left: 930px;
+    top: 140px;
+}
+#head{
+    height: 40px;
+    background-color: #fff8f0;
+    font-size: 13px;
+}
+#head img{
+    position: absolute;
+    left: 17px;
+}
+#headzi{
+    position: absolute;
+    left: 35px;
+}
+#headzi,#head img{
+    position: absolute;
+    top: 10px;
+}
+#saoma,#yonghu{
+    width: 120px;
+    height: 70px;
+    font-weight: 700;
+    border-bottom: 1px solid #f4f4f4;
+    //background-color: red;
+}
+#saoma{
+    //background-color: blue;
+    position: absolute;
+    left: 205px;
+}
+#saomazi{
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+#username{
+    position: absolute;
+    top: 64px;
+    left: 40px;
+}
+#erweima{
+    position: absolute;
+    top: 130px;
+    left: 85px;
+    width: 150px;
+    height: 150px;
+    //background-color: red;
+    border: 1px solid #f4f4f4;
+    padding: 8px;
+    /*display: none;*/
+}
+#erweima img{
+    position: absolute;
+    left: 9px;
+    top: 9px;
+}
+#phone{
+    position: absolute;
+    left: 200px;
+    top: 130px;
+    display: none;
+}
+#yonghuming,#mima{
+    position: absolute;
+    left: 50px;
+    height: 27px;
+    width: 270px;
+}
+#yonghuming{
+    position: absolute;
+    top: 133px;
+}
+#mima{
+    position: absolute;
+    top: 201.5px;
+}
+#rentou{
+    position: absolute;
+    left: 15px;
+    top: 131.8px;
+    z-index: 1;
+    border-right: 1px solid #bdbdbd;
+}
+#suo{
+    position: absolute;
+    left: 15px;
+    top: 200.8px;
+    z-index: 1;
+    border-right: 1px solid #bdbdbd;
+}

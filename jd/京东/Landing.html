@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东登陆界面</title>
+    <script src="../chapter09/js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div id = "loge"><img src="images/logo-201305-b.png" alt=""></div>
+<div id = "hello"><img src="images/l-icon.png" alt=""></div>
+<div id = "wenti"><img src="images/q-icon.png" alt=""><span id="smallzi">登陆页面，调查问卷</span></div>
+<div id = "fa"><img id = "tanhao" src="images/icon-tips.png" alt=""><span id = "wenzi">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。</span></div>
+<div id = "background"><img src="images/5b35f54eN3d396dcd.jpg" alt=""></div>
+<div id = "zhu">
+    <div id = "head"><img src="images/icon-tips.png" alt=""><span id = "headzi">京东不会以任何理由要求您转账汇款，谨防诈骗。</span></div>
+    <div id = "saoma">
+        <span id = "saomazi">账户登陆</span>
+    </div>
+    <div id = "yonghu">
+        <span id = "username">扫码登陆</span>
+    </div>
+    <div id = "saomadenglu">
+        <div id = "erweima">
+            <img src="images/show.png" alt="">
+        </div>
+        <div id = "phone">
+            <img src="images/phone-orange.png" alt="">
+        </div>
+    </div>
+    <!--<div id = "zhanghudenglu">-->
+        <!--<img id = "rentou" src="images/rentou.png" alt="" width="35" height="35">-->
+        <!--<img id = "suo" src="images/suo.png" alt="" width="35" height="35">-->
+        <!--<input id="yonghuming" type="text" class="itxt" name="loginname" tabindex="1" autocomplete="off" placeholder="邮箱/用户名/已验证手机">-->
+        <!--<input type="password" id="mima" name="nloginpwd" class="itxt itxt-error" tabindex="2" autocomplete="off" placeholder="密码">-->
+        <!--&lt;!&ndash;<input id = "yonghuming" type="text">&ndash;&gt;-->
+        <!--&lt;!&ndash;<input id = "mima" type="password">&ndash;&gt;-->
+    <!--</div>-->
+</div>
+</body>
+<script>
+    $(document).ready(function () {
+       $("#username").css("color","red");
+       $("#saoma").mouseover(function () {
+           $("#saomazi").css("color","red");
+       }).mouseout(function () {
+           $("#saomazi").css("color","black")
+       });
+       $("#erweima").mouseover(function () {
+          $("#erweima").css("left","30px");
+          $("#phone").css("display","block");
+       }).mouseleave(function () {
+           $("#erweima").css("left","85px");
+           $("#phone").css("display","none");
+       });
+    });
+</script>
+</html>
